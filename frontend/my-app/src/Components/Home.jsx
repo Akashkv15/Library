@@ -51,9 +51,9 @@ function Home() {
       console.log(result.data);
 
       // Show alert when count hits zero
-      if (result.data.updatedBook.count === 0) {
-        alert("This book is now out of stock!");
-      }
+      // if (result.data.updatedBook.count == 0) {
+      //   alert("This book is now out of stock!");
+      // }
 
       fetchdata(); // refresh UI
     } catch (error) {
